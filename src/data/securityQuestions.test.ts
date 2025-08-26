@@ -245,7 +245,7 @@ describe('securityQuestions', () => {
   describe('边界情况', () => {
     it('空数组情况下的工具函数', () => {
       // 测试在没有匹配项时的行为
-      const emptyResults = SECURITY_QUESTIONS.filter(q => q.category === ('non_existent' as any))
+      const emptyResults = SECURITY_QUESTIONS.filter(q => q.category === ('non_existent' as string))
       expect(emptyResults).toHaveLength(0)
     })
 
