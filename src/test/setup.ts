@@ -4,14 +4,7 @@
  * 为所有测试提供全局配置和工具函数
  */
 
-import '@testing-library/jest-dom'
-import { afterEach, vi } from 'vitest'
-import { cleanup } from '@testing-library/react'
-
-// 每个测试后清理
-afterEach(() => {
-  cleanup()
-})
+import { vi } from 'vitest'
 
 // Mock 基本 API
 Object.defineProperty(navigator, 'clipboard', {

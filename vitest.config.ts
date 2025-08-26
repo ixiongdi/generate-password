@@ -16,7 +16,7 @@ export default defineConfig({
     include: ['src/**/*.{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
     exclude: ['node_modules', 'dist', '.idea', '.git', '.cache'],
     
-    // 设置测试文件 - 使用有条件的设置
+    // 设置测试文件
     setupFiles: ['./src/test/setup.ts'],
     
     // 覆盖率配置
@@ -30,12 +30,6 @@ export default defineConfig({
         '**/*.config.*',
         'dist/',
       ]
-    },
-    
-    // 测试超时时间
-    testTimeout: 10000,
-    
-    // 钩子超时时间
-    hookTimeout: 10000
+    }
   }
 })
