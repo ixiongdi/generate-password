@@ -48,9 +48,7 @@ function App() {
   }
 
   // 按类别分组的问题（包括自定义问题）
-  const allQuestions = [...SECURITY_QUESTIONS, ...customQuestions]
-  
-  // 系统预设问题分组（不包含自定义问题）
+// 系统预设问题分组（不包含自定义问题）
   const systemGroupedQuestions = SECURITY_QUESTIONS.reduce((acc, question) => {
     if (!acc[question.category]) {
       acc[question.category] = []
