@@ -57,7 +57,7 @@ jobs:
 
       - name: 📊 上传覆盖率报告
         if: matrix.node-version == 18
-        uses: codecov/codecov-action@v3
+        uses: codecov/codecov-action@v5
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
           file: ./coverage/lcov.info
