@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 📥 检出代码
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: 📦 设置 Node.js
         uses: actions/setup-node@v4
@@ -41,7 +41,7 @@ jobs:
         node-version: [18, 20]
     steps:
       - name: 📥 检出代码
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: 📦 设置 Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
@@ -71,7 +71,7 @@ jobs:
     needs: [lint, test]
     steps:
       - name: 📥 检出代码
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: 📦 设置 Node.js
         uses: actions/setup-node@v4
@@ -98,7 +98,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 📥 检出代码
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: 📦 设置 Node.js
         uses: actions/setup-node@v4
@@ -133,7 +133,7 @@ jobs:
         browser: [chrome, firefox]
     steps:
       - name: 📥 检出代码
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: 📦 设置 Node.js
         uses: actions/setup-node@v4
@@ -178,7 +178,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: 📥 检出代码
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: 📦 设置 Node.js
         uses: actions/setup-node@v4
@@ -212,7 +212,7 @@ jobs:
     if: github.event_name == 'release'
     steps:
       - name: 📥 检出代码
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: 📦 设置 Node.js
         uses: actions/setup-node@v4
@@ -247,7 +247,7 @@ jobs:
     if: github.event_name == 'schedule'
     steps:
       - name: 📥 检出代码
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: 📦 设置 Node.js
         uses: actions/setup-node@v4
