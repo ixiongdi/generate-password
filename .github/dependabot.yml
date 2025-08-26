@@ -1,0 +1,59 @@
+version: 2
+updates:
+  # npm 依赖更新
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 10
+    reviewers:
+      - "yourusername"
+    assignees:
+      - "yourusername"
+    commit-message:
+      prefix: "⬆️"
+      prefix-development: "⬆️ [dev]"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "automated"
+    # 版本更新策略
+    versioning-strategy: "increase"
+    # 忽略特定更新
+    ignore:
+      # 忽略主版本更新（可能有破坏性变更）
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major"]
+    # 分组相关更新
+    groups:
+      react:
+        patterns:
+          - "react*"
+          - "@types/react*"
+      eslint:
+        patterns:
+          - "eslint*"
+          - "@eslint/*"
+      typescript:
+        patterns:
+          - "typescript*"
+          - "@types/*"
+      vite:
+        patterns:
+          - "vite*"
+          - "@vitejs/*"
+
+  # GitHub Actions 更新
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    commit-message:
+      prefix: "⬆️ [actions]"
+    labels:
+      - "github-actions"
+      - "automated"

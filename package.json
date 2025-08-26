@@ -1,0 +1,64 @@
+{
+  "name": "secure-password-generator",
+  "version": "1.0.0",
+  "description": "一个基于个人安全问题的智能密码生成器，帮助您创建唯一、高强度且易于记忆的密码",
+  "keywords": [
+    "password-generator",
+    "security",
+    "privacy",
+    "react",
+    "typescript",
+    "encryption",
+    "personal-security",
+    "password-manager",
+    "cybersecurity",
+    "web-security"
+  ],
+  "author": {
+    "name": "Andy Xiong",
+    "email": "your-email@example.com",
+    "url": "https://github.com/yourusername"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/generate-password.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/generate-password/issues"
+  },
+  "homepage": "https://github.com/yourusername/generate-password#readme",
+  "private": false,
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.0",
+    "eslint": "^9.33.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.39.1",
+    "vite": "^7.1.2"
+  }
+}

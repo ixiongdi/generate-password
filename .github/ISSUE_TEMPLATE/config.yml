@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 讨论区
+    url: https://github.com/yourusername/generate-password/discussions
+    about: 提出问题、分享想法或寻求社区帮助
+  - name: 📚 文档
+    url: https://github.com/yourusername/generate-password#readme
+    about: 查看项目文档和使用指南
+  - name: 🔒 安全问题
+    url: mailto:your-email@example.com
+    about: 报告严重安全漏洞（私人联系）
