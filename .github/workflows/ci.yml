@@ -175,7 +175,6 @@ jobs:
     name: 🚀 部署到 GitHub Pages
     runs-on: ubuntu-latest
     needs: [lint, test, build, security]
-    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
     permissions:
       contents: read
       pages: write
@@ -254,7 +253,6 @@ jobs:
   dependency-update:
     name: 🔄 依赖更新检查
     runs-on: ubuntu-latest
-    if: github.event_name == 'schedule'
     steps:
       - name: 📥 检出代码
         uses: actions/checkout@v4
