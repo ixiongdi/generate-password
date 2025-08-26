@@ -45,7 +45,7 @@
 
 1. **克隆仓库**
    ```bash
-   git clone https://github.com/ixiongdi/generate-password.git
+   git clone https://github.com/ixiongdi/pwd-gen.git
    cd generate-password
    ```
 
@@ -149,8 +149,8 @@ npm test
 
 ## 📞 支持
 
-- 🐛 [问题反馈](https://github.com/ixiongdi/generate-password/issues)
-- 💬 [讨论区](https://github.com/ixiongdi/generate-password/discussions)
+- 🐛 [问题反馈](https://github.com/ixiongdi/pwd-gen/issues)
+- 💬 [讨论区](https://github.com/ixiongdi/pwd-gen/discussions)
 - 📧 邮箱: ixiongdi@gmail.com
 
 ## 🙏 致谢

@@ -212,8 +212,8 @@ npm run test:watch
 如果您在贡献过程中遇到问题：
 
 - 📧 发送邮件：ixiongdi@gmail.com
-- 💬 在 [Discussions](https://github.com/ixiongdi/generate-password/discussions) 中提问
-- 🐛 创建 [Issue](https://github.com/ixiongdi/generate-password/issues)
+- 💬 在 [Discussions](https://github.com/ixiongdi/pwd-gen/discussions) 中提问
+- 🐛 创建 [Issue](https://github.com/ixiongdi/pwd-gen/issues)
 
 ## 🏆 贡献者认可
 

@@ -22,12 +22,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ixiongdi/generate-password.git"
+    "url": "https://github.com/ixiongdi/pwd-gen.git"
   },
   "bugs": {
-    "url": "https://github.com/ixiongdi/generate-password/issues"
+    "url": "https://github.com/ixiongdi/pwd-gen/issues"
   },
-  "homepage": "https://github.com/ixiongdi/generate-password#readme",
+  "homepage": "https://github.com/ixiongdi/pwd-gen#readme",
   "private": false,
   "type": "module",
   "engines": {
