@@ -293,7 +293,7 @@ export function getPasswordStrength(password: string): PasswordStrength {
   // 字符多样性评分（对95个字符的额外加分）
   const uniqueChars = new Set(password).size;
   if (uniqueChars >= password.length * 0.7) score += 1; // 字符重复度低
-  if (/[ !"#$%&'()*+,\-.\/:;<=>?@\[\\\]^_`{|}~]/.test(password)) score += 1; // 包含高级特殊字符
+  if (/[ !"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~]/.test(password)) score += 1; // 包含高级特殊字符
   
   if (score <= 4) return 'weak';
   if (score <= 7) return 'medium';

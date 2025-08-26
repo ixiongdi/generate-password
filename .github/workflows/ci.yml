@@ -53,7 +53,11 @@ jobs:
         run: npm ci
 
       - name: 🧪 运行测试
-        run: npm test -- --coverage
+        run: npm run test:run
+
+      - name: 📈 生成覆盖率报告
+        if: matrix.node-version == 18
+        run: npm run test:coverage
 
       - name: 📊 上传覆盖率报告
         if: matrix.node-version == 18
