@@ -100,6 +100,10 @@ jobs:
   security:
     name: 🔒 安全扫描
     runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: read
+      security-events: write
     steps:
       - name: 📥 检出代码
         uses: actions/checkout@v4
@@ -126,6 +130,8 @@ jobs:
 
       - name: 📊 执行 CodeQL 分析
         uses: github/codeql-action/analyze@v3
+        with:
+          category: "/language:javascript"
 
   # 浏览器兼容性测试
   browser-test:
