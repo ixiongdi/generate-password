@@ -47,7 +47,7 @@ describe('securityQuestions', () => {
 
     it('应该包含所有预期的类别', () => {
       const categories = new Set(SECURITY_QUESTIONS.map(q => q.category))
-      const expectedCategories = ['personal', 'family', 'preferences', 'memory', 'location']
+      const expectedCategories: SecurityQuestion['category'][] = ['personal', 'family', 'preferences', 'memory', 'location']
       
       expectedCategories.forEach(category => {
         expect(categories.has(category)).toBe(true)
@@ -245,7 +245,7 @@ describe('securityQuestions', () => {
   describe('边界情况', () => {
     it('空数组情况下的工具函数', () => {
       // 测试在没有匹配项时的行为
-      const emptyResults = SECURITY_QUESTIONS.filter(q => q.category === 'non_existent' as SecurityQuestion['category'])
+      const emptyResults = SECURITY_QUESTIONS.filter(q => q.category === ('non_existent' as any))
       expect(emptyResults).toHaveLength(0)
     })
 
