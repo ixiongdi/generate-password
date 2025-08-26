@@ -211,9 +211,9 @@ npm run test:watch
 
 如果您在贡献过程中遇到问题：
 
-- 📧 发送邮件：your-email@example.com
-- 💬 在 [Discussions](https://github.com/yourusername/generate-password/discussions) 中提问
-- 🐛 创建 [Issue](https://github.com/yourusername/generate-password/issues)
+- 📧 发送邮件：ixiongdi@gmail.com
+- 💬 在 [Discussions](https://github.com/ixiongdi/generate-password/discussions) 中提问
+- 🐛 创建 [Issue](https://github.com/ixiongdi/generate-password/issues)
 
 ## 🏆 贡献者认可
 

@@ -9,9 +9,9 @@ updates:
       time: "09:00"
     open-pull-requests-limit: 10
     reviewers:
-      - "yourusername"
+      - "ixiongdi"
     assignees:
-      - "yourusername"
+      - "ixiongdi"
     commit-message:
       prefix: "⬆️"
       prefix-development: "⬆️ [dev]"

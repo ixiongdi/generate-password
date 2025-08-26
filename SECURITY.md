@@ -17,7 +17,7 @@
 
 **请不要在公开的 GitHub Issues 中报告安全漏洞！**
 
-1. **发送邮件** 至：your-email@example.com
+1. **发送邮件** 至：ixiongdi@gmail.com
 2. **邮件主题**：`[SECURITY] 安全漏洞报告 - 安全密码生成器`
 3. **包含信息**：详细的漏洞描述和重现步骤
 
@@ -167,7 +167,7 @@
 ## 📞 联系信息
 
 **安全团队负责人**: Andy Xiong  
-**邮箱**: your-email@example.com  
+**邮箱**: ixiongdi@gmail.com  
 **PGP 公钥**: [链接到公钥]  
 **响应时间**: 工作日 24 小时内  
 

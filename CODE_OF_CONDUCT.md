@@ -57,7 +57,7 @@
 
 可以通过以下方式举报滥用、骚扰或其他不可接受的行为：
 
-* **邮件举报**: your-email@example.com
+* **邮件举报**: ixiongdi@gmail.com
 * **GitHub Issues**: 创建带有 `conduct` 标签的私人 Issue
 * **直接联系维护者**: 通过 GitHub 私信联系项目维护者
 
@@ -107,8 +107,8 @@
 如果您对本行为准则有任何问题或需要澄清，请通过以下方式联系我们：
 
 * 项目维护者：Andy Xiong
-* 邮箱：your-email@example.com
-* GitHub：[@yourusername](https://github.com/yourusername)
+* 邮箱：ixiongdi@gmail.com
+* GitHub：[@ixiongdi](https://github.com/ixiongdi)
 
 ---
 
