@@ -202,7 +202,7 @@ jobs:
         run: npm run build
 
       - name: ⚙️ 设置 Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
 
       - name: 📤 上传到 Pages
         uses: actions/upload-pages-artifact@v4
